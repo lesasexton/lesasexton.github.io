@@ -54,12 +54,110 @@ h1 {
   outline: none;
   text-decoration: none;
   transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
+  color 0.2s ease-out;
   border-radius: .2em;
 }
+
 #ghost-button-transition:hover, #ghost-button-transition:active {
   background-color: #fff;
   color: $navy;
   transition: background-color 0.3s ease-in,
-              color 0.3s ease-in;
+  color 0.3s ease-in;
+}
+
+@media (max-width: 780px) and (orientation: landscape) {
+
+  #pic-space {
+    padding-top: 5vh;
+  }
+
+  #name {
+    font-size: 45px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  // img.square {
+  //   width: 15em;
+  // }
+  //
+  // img.rectangle {
+  //   width: 15em;
+  // }
+  //
+  // .btn-primary {
+  //   margin: .5em;
+  // }
+  //
+  // .list-inline li {
+  //   padding: .5em 1em;
+  // }
+
+}
+
+@media (max-width: 600px) and (orientation: landscape) {
+
+  #pic-space {
+    padding-top: 10vh;
+  }
+
+  #name {
+    font-size: 45px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  // img.square {
+  //   width: 15em;
+  // }
+  //
+  // img.rectangle {
+  //   width: 15em;
+  // }
+  //
+  // .btn-primary {
+  //   margin: .5em;
+  // }
+  //
+  // .list-inline li {
+  //   padding: .5em 1em;
+  // }
+
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+
+  #pic-space {
+    padding-top: 15vh;
+  }
+
+  #name {
+    font-size: 50px;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  // img.square {
+  //   width: 15em;
+  // }
+  //
+  // img.rectangle {
+  //   width: 15em;
+  // }
+
+  // .btn-primary {
+  //   margin: .5em;
+  // }
+  //
+  // .list-inline li {
+  //   padding: .5em 1em;
 }

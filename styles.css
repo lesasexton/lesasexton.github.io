@@ -53,4 +53,35 @@ h1 {
   color: #00264d;
   transition: background-color 0.3s ease-in, color 0.3s ease-in; }
 
+@media (max-width: 780px) and (orientation: landscape) {
+  #pic-space {
+    padding-top: 5vh; }
+
+  #name {
+    font-size: 45px; }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px; } }
+@media (max-width: 600px) and (orientation: landscape) {
+  #pic-space {
+    padding-top: 10vh; }
+
+  #name {
+    font-size: 45px; }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px; } }
+@media (max-width: 480px) and (orientation: portrait) {
+  #pic-space {
+    padding-top: 15vh; }
+
+  #name {
+    font-size: 50px; }
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px; } }
+
 /*# sourceMappingURL=styles.css.map */
