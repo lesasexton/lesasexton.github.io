@@ -16,9 +16,9 @@ header {
 /*Div's translucent blue*/
 .translucent {
   background-color: #00264d;
-  background: linear-gradient(top, rgba(0, 26, 61, 0.6), rgba(0, 26, 61, 0.6));
-  background: -webkit-linear-gradient(top, rgba(0, 26, 61, 0.6), rgba(0, 26, 61, 0.6));
-  background: -moz-linear-gradient(top, rgba(0, 26, 61, 0.6), rgba(0, 26, 61, 0.6));
+  background: linear-gradient(top, rgba(0, 26, 61, 0.4), rgba(0, 26, 61, 0.4));
+  background: -webkit-linear-gradient(top, rgba(0, 26, 61, 0.4), rgba(0, 26, 61, 0.4));
+  background: -moz-linear-gradient(top, rgba(0, 26, 61, 0.4), rgba(0, 26, 61, 0.4));
   padding: 10px;
   height: 100vh; }
 
@@ -52,6 +52,22 @@ h1 {
   background-color: #fff;
   color: #00264d;
   transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+#bio {
+  text-align: center;
+  margin: 0 auto;
+  border-top: 1px solid #ccc; }
+
+#hello {
+  max-width: 80%;
+  margin: 0 auto; }
+
+img.square {
+  width: 20em;
+  max-height: 20em;
+  overflow: hidden;
+  margin: 1em auto;
+  border-radius: .5em; }
 
 @media (max-width: 780px) and (orientation: landscape) {
   #pic-space {
