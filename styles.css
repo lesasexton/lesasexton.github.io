@@ -1,4 +1,56 @@
+/*Whole Body Container*/
 body {
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #00264d;
+  color: #FFF; }
+
+/*Header Image*/
+header {
+  background: url("images/myanmar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center; }
+
+/*Div's translucent blue*/
+.translucent {
+  background-color: #00264d;
+  background: linear-gradient(top, rgba(0, 26, 61, 0.6), rgba(0, 26, 61, 0.6));
+  background: -webkit-linear-gradient(top, rgba(0, 26, 61, 0.6), rgba(0, 26, 61, 0.6));
+  background: -moz-linear-gradient(top, rgba(0, 26, 61, 0.6), rgba(0, 26, 61, 0.6));
+  padding: 10px;
+  height: 100vh; }
+
+/*Makes Name Extra Large*/
+#name {
+  font-size: 5em; }
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 3em; }
+
+/*Makes header image spread across whole screen, regardless of size.*/
+#pic-space {
+  padding-top: 25vh;
+  height: 100vh;
+  text-align: center; }
+
+#ghost-button-transition {
+  display: inline-block;
+  width: 5em;
+  padding: .25em;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  border-radius: .2em; }
+
+#ghost-button-transition:hover, #ghost-button-transition:active {
+  background-color: #fff;
+  color: #00264d;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
 
 /*# sourceMappingURL=styles.css.map */
