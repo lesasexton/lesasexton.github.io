@@ -66,15 +66,25 @@ h1 {
   color 0.3s ease-in;
 }
 
-#bio {
+.row {
   text-align: center;
   margin: 0 auto;
+  padding: 2em 0;
+}
+
+#bio {
   border-top: 1px solid #ccc;
+  background-color: #16174f;
 }
 
 #hello {
   max-width: 80%;
   margin: 0 auto;
+}
+
+#school {
+  border-top: 1px solid #ccc;
+  background-color: #963019;
 }
 
 img.square {
