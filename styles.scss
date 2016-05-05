@@ -14,9 +14,12 @@ body {
 header {
   background: url("images/graffiti.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   text-align: center;
+  padding-top: 20em;
+  padding-bottom: 5em;
+  margin: 0;
 }
 
 /*Div's translucent blue*/
@@ -26,7 +29,8 @@ header {
   background: -webkit-linear-gradient($gradient);
   background: -moz-linear-gradient($gradient);
   padding: 10px;
-  height: 100vh;
+  padding-top: -20em;
+  // height: 100vh;
 }
 
 /*Makes Name Extra Large*/
@@ -35,16 +39,16 @@ header {
 }
 
 h1 {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   font-size: 3em;
 }
 
 /*Makes header image spread across whole screen, regardless of size.*/
-#pic-space {
-  padding-top: 25vh;
-  height: 100vh;
-  text-align: center;
-}
+// #pic-space {
+//   // padding-top: 25vh;
+//   // height: 100vh;
+//   text-align: center;
+// }
 
 #ghost-button-transition {
   display: inline-block;
@@ -73,6 +77,10 @@ img.square {
   overflow: hidden;
   margin: 1em auto;
   border-radius: .5em;
+}
+
+.container-fluid {
+  margin: 0;
 }
 
 .row {
@@ -112,6 +120,39 @@ i.fa:hover{
 
 .list-inline li {
   padding: .5em 2em;
+}
+
+/* NAVBAR */
+.navbar-default {
+  background-color: $navy;
+  border-color: #ddd;
+  border-width: 0 1px 1px;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+  padding: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+// .navbar-default .navbar-brand {
+//   font-family: $fontHeader;
+// }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:visited {
+  color: white;
+}
+
+a:hover > h3, a:hover > h2,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active {
+  color: $teal;
 }
 
 @media (max-width: 780px) and (orientation: landscape) {
