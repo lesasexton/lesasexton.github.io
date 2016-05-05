@@ -1,5 +1,6 @@
 $navy: #00264d;
 $gradient: top, rgba(0,26,61,.40), rgba(0,26,61,.40);
+$teal: #3fb0ac;
 
 /*Whole Body Container*/
 body {
@@ -66,15 +67,23 @@ h1 {
   color 0.3s ease-in;
 }
 
+img.square {
+  width: 20em;
+  max-height: 20em;
+  overflow: hidden;
+  margin: 1em auto;
+  border-radius: .5em;
+}
+
 .row {
   text-align: center;
   margin: 0 auto;
   padding: 2em 0;
 }
 
-#bio {
+#bio, #contact {
   border-top: 1px solid #ccc;
-  background-color: #16174f;
+  background-color: darken($teal, 25%);
 }
 
 #hello {
@@ -84,15 +93,21 @@ h1 {
 
 #school {
   border-top: 1px solid #ccc;
-  background-color: #963019;
+  background-color: darken($teal, 10%);
 }
 
-img.square {
-  width: 20em;
-  max-height: 20em;
-  overflow: hidden;
-  margin: 1em auto;
-  border-radius: .5em;
+i.fa {
+  font-size: 3em;
+  margin: .5em auto;
+  color: white;
+}
+
+i.fa:hover{
+  color: #ccc;
+}
+
+.list-inline li {
+  padding: .5em 2em;
 }
 
 @media (max-width: 780px) and (orientation: landscape) {

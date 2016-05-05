@@ -53,14 +53,21 @@ h1 {
   color: #00264d;
   transition: background-color 0.3s ease-in, color 0.3s ease-in; }
 
+img.square {
+  width: 20em;
+  max-height: 20em;
+  overflow: hidden;
+  margin: 1em auto;
+  border-radius: .5em; }
+
 .row {
   text-align: center;
   margin: 0 auto;
   padding: 2em 0; }
 
-#bio {
+#bio, #contact {
   border-top: 1px solid #ccc;
-  background-color: #16174f; }
+  background-color: #1d5250; }
 
 #hello {
   max-width: 80%;
@@ -68,14 +75,18 @@ h1 {
 
 #school {
   border-top: 1px solid #ccc;
-  background-color: #963019; }
+  background-color: #328a87; }
 
-img.square {
-  width: 20em;
-  max-height: 20em;
-  overflow: hidden;
-  margin: 1em auto;
-  border-radius: .5em; }
+i.fa {
+  font-size: 3em;
+  margin: .5em auto;
+  color: white; }
+
+i.fa:hover {
+  color: #ccc; }
+
+.list-inline li {
+  padding: .5em 2em; }
 
 @media (max-width: 780px) and (orientation: landscape) {
   #pic-space {
